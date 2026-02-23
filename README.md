@@ -39,23 +39,23 @@ A robust, **console-based** Bank Management System developed in **C++**. This pr
 git clone [https://github.com/ali-talal-ibrahem/Bank-System-CPP.git](https://github.com/ali-talal-ibrahem/Bank-System-CPP.git)
 ```
 
-###2. Compile:
+### 2. Compile:
 Use any C++ compiler (e.g., g++):
 
 ```Bash
 g++ Main.cpp -o BankSystem
 ```
 
-###3. Execute:
+### 3. Execute:
 Run the generated file and ensure Clients.txt is in the same directory:
 
 ```Bash
 ./BankSystem
 ```
 
-#📝 Final Note & Future Aspirations
+# 📝 Final Note & Future Aspirations
 
-##This project marks a significant milestone in my journey toward mastering Software Engineering. While the current version provides a solid core for banking operations, my vision for the future of this system includes:
+## This project marks a significant milestone in my journey toward mastering Software Engineering. While the current version provides a solid core for banking operations, my vision for the future of this system includes:
 
 Database Integration: Transitioning from flat-file storage to SQL for enhanced data relational management.
 
