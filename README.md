@@ -43,7 +43,7 @@ A robust, **console-based** Bank Management System developed in **C++**. This pr
 
 ### 1. Clone the repository:
 ```Bash
-git clone [https://github.com/ali-talal-ibrahem/Bank-System-CPP.git](https://github.com/ali-talal-ibrahem/Bank-System-CPP.git)
+git clone https://github.com/ali-talal-ibrahem/Bank-System-CPP.git
 ```
 
 ### 2. Compile:
