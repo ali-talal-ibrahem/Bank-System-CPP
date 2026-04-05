@@ -6,6 +6,10 @@ A robust, **console-based** Bank Management System developed in **C++**. This pr
 
 ## 🌟 Key Features
 
+- **🔐 Secure Authentication**: Integrated **Login System** that validates credentials against the user database before granting access.
+- **🛡️ Admin & User Protection**: Advanced UI constraints to prevent the deletion or modification of the **"Admin"** account, ensuring system stability.
+- **👥 User Management**: A dedicated **Manage Users** dashboard for creating, updating, and deleting system operators with specific permissions.
+- **📂 Structured Data Architecture**: Organized file system with a dedicated `File_Database/` directory for better project scalability.
 - **Comprehensive Client Management**: Full **CRUD** operations (Create, Read, Update, Delete).
 - **Transaction Engine**: Secure Deposit and Withdrawal operations with **real-time balance validation**.
 - **Data Persistence**: Flat-file database system (`.txt`) using custom delimiters for structured data storage.
@@ -18,6 +22,7 @@ A robust, **console-based** Bank Management System developed in **C++**. This pr
 ## 🛠 Technical Highlights
 
 - **Clean Code Principles**: Adheres to **DRY** (Don't Repeat Yourself) and high modularity.
+- **Defense in Depth**: Implemented validation loops in both UI and Logic layers to prevent unauthorized data manipulation.
 - **Memory Management**: Uses `std::vector` and `structs` for efficient in-memory data handling.
 - **Input Shielding**: Implemented `cin >> ws` and custom validation to ensure robust user input handling.
 - **Formatted Reporting**: Utilizes `std::setw` and `std::left/right` for clean, tabular data presentation.
@@ -26,9 +31,11 @@ A robust, **console-based** Bank Management System developed in **C++**. This pr
 
 ## 📂 Project Structure
 
-- `Main.cpp`: Contains the core logic, menu systems, and operational flows.
-- `Clients.txt`: The system's database, pre-loaded with **50+ test records** for immediate evaluation.
-- `MyLibInput.h` *(Optional)*: Modular input library for enhanced reusability.
+- `Main.cpp`: The central engine containing the `Login`, `Start`, and `Menu` systems.
+- `File_Database/`: Dedicated folder for persistence:
+    - `Clients.txt`: Stores client profiles, PINs, and balances.
+    - `Users.txt`: Stores system operator credentials and permission levels.
+- `README.md`: Project documentation and roadmap.
 
 ---
 
@@ -53,18 +60,17 @@ Run the generated file and ensure Clients.txt is in the same directory:
 ./BankSystem
 ```
 
-# 📝 Final Note & Future Aspirations
+# 📝 Concluding Note and Future Aspirations
 
-## This project marks a significant milestone in my journey toward mastering Software Engineering. While the current version provides a solid core for banking operations, my vision for the future of this system includes:
+## This project marks a significant milestone in my journey toward mastering software engineering. Its recent evolution—transforming from a simple client management tool into a secure, multi-user system—reflects my growing proficiency in grasping the concepts of systems engineering and information security.
 
-Database Integration: Transitioning from flat-file storage to SQL for enhanced data relational management.
+User permissions will be refined and fully implemented in an upcoming update.
 
-Security Layers: Implementing advanced encryption for PIN codes and sensitive user data.
+##🔭 My Vision for the Future:
+Database Integration: Transitioning from a flat-file storage approach to utilizing SQL databases (specifically MySQL/PostgreSQL).
 
-Graphical User Interface (GUI): Evolving from a console-based app to a modern desktop application using Qt or SFML.
+Advanced Permissions: Implementing a precise and granular Access Control List , leveraging permissions to define specific user privileges.
 
-Network Capabilities: Adding multi-user support with a client-server architecture.
+"Programming is not merely about writing lines of code; it is about building solutions that are both enduring and secure."
 
-"Coding is not just about writing lines of code; it's about building solutions that endure."
-
-Best Regards, Ali Talal Ibrahem 📅 February 23, 2026
+Best regards, Ali Talal Ibrahem | 📅 Last Updated: April 4, 2026
