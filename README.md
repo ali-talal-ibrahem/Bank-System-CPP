@@ -66,7 +66,7 @@ Run the generated file and ensure Clients.txt is in the same directory:
 
 User permissions will be refined and fully implemented in an upcoming update.
 
-##🔭 My Vision for the Future:
+## 🔭 My Vision for the Future:
 Database Integration: Transitioning from a flat-file storage approach to utilizing SQL databases (specifically MySQL/PostgreSQL).
 
 Advanced Permissions: Implementing a precise and granular Access Control List , leveraging permissions to define specific user privileges.
